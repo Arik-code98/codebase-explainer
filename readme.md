@@ -1,7 +1,9 @@
 # Codebase Explainer
 
-Codebase Explainer is an ongoing project that allows users to interact with a GitHub repository using natural language.
+**Codebase Explainer** is an ongoing project that enables users to interact with any GitHub repository using natural language.
 
-The idea is to provide a repository URL and then chat with the codebase to understand its structure, functionality, and logic.
+By simply providing a repository URL, users can explore the codebase conversationally—understanding its structure, functionality, and logic without manually browsing through files.
+
+The system fetches the repository, processes the code, and builds a searchable knowledge base, allowing users to ask questions and receive context-aware answers.
 
 > 🚧 This project is currently under development.
