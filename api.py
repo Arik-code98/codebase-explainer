@@ -37,3 +37,6 @@ def index_repo(link: github):
     )
     vector_store.add_documents(chunks)
     return {"repo_id": repo_id}
+
+@app.post("/ask")
+def question()
