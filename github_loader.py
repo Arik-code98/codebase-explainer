@@ -6,6 +6,7 @@ import os
 def fetch_repo_files(repo_url: str) -> list[Document]:
     token = os.getenv("GITHUB_TOKEN")
     auth = Auth.Token(token)
+    g = Github(auth=auth)
     
     repo_name = repo_url.replace("https://github.com/", "")
     repo = g.get_repo(repo_name)
