@@ -103,10 +103,3 @@ uvicorn api:app --reload
 ```
 
 The API will be available at `http://localhost:8000`. You can also use the auto-generated docs at `http://localhost:8000/docs`.
-
----
-
-### Notes
-- The current focus is the backend API. A separate frontend UI is planned and is **under construction**.
-- Indexed repositories are stored in the `chroma_db/` directory.
-- Only files with common code/text extensions (e.g. `.py`, `.js`, `.ts`, `.md`, `.txt`, `.json`, `.yaml`, `.yml`) are indexed.
