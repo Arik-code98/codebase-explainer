@@ -1,8 +1,6 @@
 ## Codebase Explainer
 
-Codebase Explainer is a backend service that lets you ask questions about any public GitHub repository using natural language. It fetches the code, builds a vector index over it, and then uses an LLM to answer questions grounded in the repository’s files.
-
-> 🚧 Note: The frontend for this project is currently under construction.
+Codebase Explainer is a backend-only service that lets you ask questions about any public GitHub repository using natural language. It fetches the code, builds a vector index over it, and then uses an LLM to answer questions grounded in the repository’s files.
 
 ---
 
@@ -107,6 +105,6 @@ The API will be available at `http://localhost:8000`. You can also use the auto-
 ---
 
 ### Notes
-- The current focus is the backend API. A separate frontend UI is planned and is **under construction**.
+- This project exposes only a backend API; there is currently no separate frontend UI.
 - Indexed repositories are stored in the `chroma_db/` directory.
 - Only files with common code/text extensions (e.g. `.py`, `.js`, `.ts`, `.md`, `.txt`, `.json`, `.yaml`, `.yml`) are indexed.
