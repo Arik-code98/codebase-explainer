@@ -4,6 +4,11 @@ Codebase Explainer is a backend-only service that lets you ask questions about a
 
 ---
 
+### Features
+- Index any public GitHub repository by URL.
+- Store embeddings persistently using ChromaDB.
+- Ask natural-language questions about the indexed codebase.
+- Get answers along with referenced source file paths.
 
 ---
 
